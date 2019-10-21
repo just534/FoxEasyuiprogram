@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1">
+	<title>订单管理系统</title>
+	<script src="./easyui/jquery.min.js"></script>
+	<script src="./easyui/jquery.easyui.min.js"></script>
+	<script src="./easyui/locale/easyui-lang-zh_CN.js"></script>
+	<link rel="stylesheet" href="./easyui/themes/default/easyui.css" id="lk">
+	<link rel="stylesheet" href="./easyui/themes/icon.css">
+	<link rel="stylesheet" href="./easyui/themes/color.css">
+	<script src="./easyui/extend/jquery.cookie.js"></script>           <!-- 用于cookie处理 -->
+	<script src="./easyui/extend/jquery.portal.js"></script>           <!-- 用于首页门户 -->
+	<script src="./easyui/extend/echarts.min.js"></script>             <!-- 用于生成图表 -->
+	<script src="./easyui/extend/datagrid-cellediting.js"></script>    <!-- 用于表中的单元格编辑 -->
+	<script src="./easyui/extend/datagrid-detailview.js"></script>     <!-- 用于展示行数据 -->
+	<script src="./easyui/extend/datagrid-filter.js"></script>         <!-- 用于表数据过滤 -->
+	<script src="./easyui/extend/datagrid-export.js"></script>         <!-- 用于表数据导出和打印 -->
+	<script src="./easyui/extend/jquery.pivotgrid.js"></script>        <!-- 用于表数据透视 -->
+	<script>
+		var username = $.cookie('user');
+		if(!username){
+			location = './login.html';   //如果cookie中不存在user，自动跳回登录页面
+		};
+	</script>
+</head>
+<body class="easyui-layout">
+	<!-- 头部 -->
+	<div region="north" border=false height="60px">
+		<img src="./images/logo.png" height="40px" style="margin: 10px 0 0 20px">
+		<div id="themes" style="margin:16px 20px 0 0;float: right"></div>
+		<div style="margin:20px 10px 0 0;float: right">
+			<span id="pw">修改密码</span>
+			<span>|</span>
+			<span id="chguser">切换用户</span>
+			<span>|</span>
+			<span id="exit">安全退出</span>
+		</div>
+	</div>
+	<!-- 底部 -->
+	<div region="south" border=false style="height: 26px;line-height: 26px;text-align: center;">   
+		<div class="icon-man" style="float: left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+		<div id="userinfo" style="float:left;"></div>
+		<div style="float:right">|&nbsp;&nbsp;源码版本2.0&nbsp;&nbsp;</div>
+		<div>本实例源码由Foxtable官方授权培训中心提供，代码说明请在群内下载</div>
+	</div>
+	<!-- 左侧导航 -->
+	<div region="west" split=true width=180 title="系统导航菜单" iconCls="icon-menu">
+		<div id="menu"></div>
+	</div>
+	<!-- 内容部分 -->
+	<div region="center">
+		<div id="ts">      <!-- 此div用于生成选项卡 -->
+			<div id="first" title="系统首页" iconCls="icon-office">    <!-- 默认只有1个选项卡 -->
+				<div style="width:70%">
+					<div id="bts" title="工作快速导航" iconCls="icon-event" height="110px" style="padding:4px"></div>
+					<div id="sales" title="最新销售数据" iconCls="icon-chart" height="300px"></div>
+				</div>
+				<div style="width:30%">
+					<div id="msg" iconCls="icon-webbrowser" title="系统消息" height="252px"></div>
+					<div id="log" iconCls="icon-property" title="操作日志" height="220px"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="dlg"></div>     <!-- 此div用于生成并加载切换用户用的登录窗口 -->
+	<!-- 调用的js文件 -->
+	<script src="./index.js"></script>
+</body>
+</html>

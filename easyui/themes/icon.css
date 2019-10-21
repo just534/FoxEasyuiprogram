@@ -1,0 +1,250 @@
+.icon-blank{
+	background:url('icons/blank.gif') no-repeat center center;
+}
+.icon-add{
+	background:url('icons/edit_add.png') no-repeat center center;
+}
+.icon-edit{
+	background:url('icons/pencil.png') no-repeat center center;
+}
+.icon-clear{
+	background:url('icons/clear.png') no-repeat center center;
+}
+.icon-remove{
+	background:url('icons/edit_remove.png') no-repeat center center;
+}
+.icon-save{
+	background:url('icons/filesave.png') no-repeat center center;
+}
+.icon-cut{
+	background:url('icons/cut.png') no-repeat center center;
+}
+.icon-ok{
+	background:url('icons/ok.png') no-repeat center center;
+}
+.icon-no{
+	background:url('icons/no.png') no-repeat center center;
+}
+.icon-cancel{
+	background:url('icons/cancel.png') no-repeat center center;
+}
+.icon-reload{
+	background:url('icons/reload.png') no-repeat center center;
+}
+.icon-search{
+	background:url('icons/search.png') no-repeat center center;
+}
+.icon-print{
+	background:url('icons/print.png') no-repeat center center;
+}
+.icon-help{
+	background:url('icons/help.png') no-repeat center center;
+}
+.icon-undo{
+	background:url('icons/undo.png') no-repeat center center;
+}
+.icon-redo{
+	background:url('icons/redo.png') no-repeat center center;
+}
+.icon-back{
+	background:url('icons/back.png') no-repeat center center;
+}
+.icon-sum{
+	background:url('icons/sum.png') no-repeat center center;
+}
+.icon-tip{
+	background:url('icons/tip.png') no-repeat center center;
+}
+.icon-filter{
+	background:url('icons/filter.png') no-repeat center center;
+}
+.icon-man{
+	background:url('icons/man.png') no-repeat center center;
+}
+.icon-lock{
+	background:url('icons/lock.png') no-repeat center center;
+}
+.icon-more{
+	background:url('icons/more.png') no-repeat center center;
+}
+.icon-tmenu{
+	background:url('./../../images/menu.ico') no-repeat center center;
+}
+
+
+.icon-mini-add{
+	background:url('icons/mini_add.png') no-repeat center center;
+}
+.icon-mini-edit{
+	background:url('icons/mini_edit.png') no-repeat center center;
+}
+.icon-mini-refresh{
+	background:url('icons/mini_refresh.png') no-repeat center center;
+}
+
+.icon-large-picture{
+	background:url('icons/large_picture.png') no-repeat center center;
+}
+.icon-large-clipart{
+	background:url('icons/large_clipart.png') no-repeat center center;
+}
+.icon-large-shapes{
+	background:url('icons/large_shapes.png') no-repeat center center;
+}
+.icon-large-smartart{
+	background:url('icons/large_smartart.png') no-repeat center center;
+}
+.icon-large-chart{
+	background:url('icons/large_chart.png') no-repeat center center;
+}
+
+/*以下是新增加的Foxtable图标*/
+.icon-logo{
+	background:url('./../../images/logo.ico') no-repeat center center;
+}
+.icon-key{
+	background:url('./../../images/key.ico') no-repeat center center;
+}
+.icon-user{
+	background:url('./../../images/users.ico') no-repeat center center;
+}
+.icon-exit{
+	background:url('./../../images/reject.ico') no-repeat center center;
+}
+.icon-menu{
+	background:url('./../../images/mainmenu.ico') no-repeat center center;
+}
+.icon-office{
+	background:url('./../../images/RecordWindow.ico') no-repeat center center;
+}
+.icon-lock{
+	background:url('./../../images/locktable.ico') no-repeat center center;
+}
+.icon-event{
+	background:url('./../../images/event.ico') no-repeat center center;
+}
+.icon-chart{
+	background:url('./../../images/chart.ico') no-repeat center center;
+}
+.icon-tools{
+	background:url('./../../images/tools.ico') no-repeat center center;
+}
+.icon-property{
+	background:url('./../../images/property.ico') no-repeat center center;
+}
+.icon-accept{
+	background:url('./../../images/accept.ico') no-repeat center center;
+}
+.icon-webbrowser{
+	background:url('./../../images/WebBrowser.ico') no-repeat center center;
+}
+.icon-save32{
+	background:url('./../../images/SaveAs.ico') no-repeat center center;
+}
+.icon-first{
+	background:url('./../../images/First.ico') no-repeat center center;
+}
+.icon-prev{
+	background:url('./../../images/Prev.ico') no-repeat center center;
+}
+.icon-next{
+	background:url('./../../images/Next.ico') no-repeat center center;
+}
+.icon-last{
+	background:url('./../../images/Last.ico') no-repeat center center;
+}
+.icon-and{
+	background:url('./../../images/MergeTable.ico') no-repeat center center;
+}
+.icon-or{
+	background:url('./../../images/CopyTable.ico') no-repeat center center;
+}
+.icon-tree1{
+	background:url('./../../images/tree.ico') no-repeat center center;
+}
+.icon-tree2{
+	background:url('./../../images/TreeView.ico') no-repeat center center;
+}
+.icon-toexcel{
+	background:url('./../../images/ToExcel.ico') no-repeat center center;
+}
+
+/*以下是新增加的菜单图标*/
+.MarkCell16{
+	background:url('./../../images/MarkCell16.ico') no-repeat center center;
+}
+.MarkCell32{
+	background:url('./../../images/MarkCell32.ico') no-repeat center center;
+}
+.Window{
+	background:url('./../../images/Window.ico') no-repeat center center;
+}
+.Windows32{
+	background:url('./../../images/Windows32.ico') no-repeat center center;
+}
+.AddvancedFilter{
+	background:url('./../../images/AddvancedFilter.ico') no-repeat center center;
+}
+.Administrate32{
+	background:url('./../../images/Administrate32.ico') no-repeat center center;
+}
+.Tree{
+	background:url('./../../images/Tree.ico') no-repeat center center;
+}
+.Tree32{
+	background:url('./../../images/Tree32.ico') no-repeat center center;
+}
+.Filter{
+	background:url('./../../images/Filter.ico') no-repeat center center;
+}
+.Filter32{
+	background:url('./../../images/Filter32.ico') no-repeat center center;
+}
+.ImageMap{
+	background:url('./../../images/ImageMap.ico') no-repeat center center;
+}
+.GroupData32{
+	background:url('./../../images/GroupData32.ico') no-repeat center center;
+}
+.CrossTable{
+	background:url('./../../images/CrossTable.ico') no-repeat center center;
+}
+.CrossTable32{
+	background:url('./../../images/CrossTable32.ico') no-repeat center center;
+}
+.RelationTable{
+	background:url('./../../images/RelationTable.ico') no-repeat center center;
+}
+.Refrence{
+	background:url('./../../images/Refrence.ico') no-repeat center center;
+}
+.ToolBox{
+	background:url('./../../images/ToolBox.ico') no-repeat center center;
+}
+.ToolBox32{
+	background:url('./../../images/ToolBox32.ico') no-repeat center center;
+}
+.LockTable{
+	background:url('./../../images/LockTable.ico') no-repeat center center;
+}
+.LockTable32{
+	background:url('./../../images/LockTable32.ico') no-repeat center center;
+}
+.Users{
+	background:url('./../../images/Users.ico') no-repeat center center;
+}
+.Logon32{
+	background:url('./../../images/Logon32.ico') no-repeat center center;
+}
+.FromOther{
+	background:url('./../../images/FromOther.ico') no-repeat center center;
+}
+.Command{
+	background:url('./../../images/Command.ico') no-repeat center center;
+}
+.vbcode{
+	background:url('./../../images/vbcode.ico') no-repeat center center;
+}
+.sms32{
+	background:url('./../../images/sms32.ico') no-repeat center center;
+}

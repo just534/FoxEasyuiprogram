@@ -1,0 +1,9 @@
+.bgc{
+	width: 100%;
+	height: 100%;
+	background:url(../images/bgchome.jpg) no-repeat;
+}
+.title{
+	font: 20px "微软雅黑";
+	margin-bottom: 100px;
+}
