@@ -90,14 +90,14 @@ $(function(){
 		collapsed:true,
 		onSelect:function(item){
 			var theme = './easyui/themes/' + item.value + '/easyui.css';
-			$('#lk').attr('href',theme)
+			$('#lk').attr('href',theme)//用选择器选择id为lk的元素，修改href的内容
 		}
 	});
 	//设置底部的用户信息
 	$('#userinfo').html('当前用户: ' + username + '&nbsp;&nbsp;|');
 	//设置导航
-	$.getJSON('getAccor',function(data){
-		data.forEach(function(value,index){     //遍历数据以生成accordion
+	$.getJSON('getAccor',function(data){//请求服务端getAccor 得到一级菜单数组 类似["数据录入","数据查询","数据统计","系统管理"]
+		data.forEach(function(value,index){     //遍历数据以生成accordion，value是"数据录入"等标题 index 是索引号
 			var accid = 'acc' + index;
 			$('#menu').append('<div id="' + accid + '" title="' + value + '"></div>');    //添加一个accordion面板
 			$('#' + accid).append('<ul id="t' + index + '"></ul>');    //在面板下再增加一个ul以方便生成目录树
@@ -334,7 +334,7 @@ $(function(){
 		switch(str.trim()){
 			case '切换用户':
 				if(!$('#login').length){
-	  				$('#dlg').load('./login.html #login',function(){
+	  				$('#dlg').load('./login.html #login',function(){ //加载login.html页面 后面选择器限定只加载#login部分
 		  				$.getScript('./login.js')
 		  			});
 				}else{
